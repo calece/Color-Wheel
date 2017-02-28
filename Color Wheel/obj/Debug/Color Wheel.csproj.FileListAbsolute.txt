@@ -1,0 +1,18 @@
+c:\users\cale\documents\visual studio 2012\Projects\Color Wheel\Color Wheel\bin\Debug\Color Wheel.exe.config
+c:\users\cale\documents\visual studio 2012\Projects\Color Wheel\Color Wheel\bin\Debug\Color Wheel.exe
+c:\users\cale\documents\visual studio 2012\Projects\Color Wheel\Color Wheel\bin\Debug\Color Wheel.pdb
+c:\users\cale\documents\visual studio 2012\Projects\Color Wheel\Color Wheel\obj\Debug\Color Wheel.csprojResolveAssemblyReference.cache
+c:\users\cale\documents\visual studio 2012\Projects\Color Wheel\Color Wheel\obj\Debug\Color_Wheel.Form1.resources
+c:\users\cale\documents\visual studio 2012\Projects\Color Wheel\Color Wheel\obj\Debug\Color_Wheel.Properties.Resources.resources
+c:\users\cale\documents\visual studio 2012\Projects\Color Wheel\Color Wheel\obj\Debug\Color Wheel.csproj.GenerateResource.Cache
+c:\users\cale\documents\visual studio 2012\Projects\Color Wheel\Color Wheel\obj\Debug\Color Wheel.exe
+c:\users\cale\documents\visual studio 2012\Projects\Color Wheel\Color Wheel\obj\Debug\Color Wheel.pdb
+C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\bin\Debug\Color Wheel.exe.config
+C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\obj\Debug\Color Wheel.exe
+C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\obj\Debug\Color Wheel.pdb
+C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\bin\Debug\Color Wheel.exe
+C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\bin\Debug\Color Wheel.pdb
+C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\obj\Debug\Color Wheel.csprojResolveAssemblyReference.cache
+C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\obj\Debug\Color_Wheel.Form1.resources
+C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\obj\Debug\Color_Wheel.Properties.Resources.resources
+C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\obj\Debug\Color Wheel.csproj.GenerateResource.Cache
