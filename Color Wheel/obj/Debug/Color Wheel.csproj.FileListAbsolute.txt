@@ -16,3 +16,12 @@ C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\obj\Debug\Color Wheel.csproj
 C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\obj\Debug\Color_Wheel.Form1.resources
 C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\obj\Debug\Color_Wheel.Properties.Resources.resources
 C:\Users\Cale\Desktop\CS440\Color Wheel\Color Wheel\obj\Debug\Color Wheel.csproj.GenerateResource.Cache
+C:\Users\Cale\Documents\GitHub\Color-Wheel\Color Wheel\bin\Debug\Color Wheel.exe.config
+C:\Users\Cale\Documents\GitHub\Color-Wheel\Color Wheel\bin\Debug\Color Wheel.exe
+C:\Users\Cale\Documents\GitHub\Color-Wheel\Color Wheel\bin\Debug\Color Wheel.pdb
+C:\Users\Cale\Documents\GitHub\Color-Wheel\Color Wheel\obj\Debug\Color Wheel.csprojResolveAssemblyReference.cache
+C:\Users\Cale\Documents\GitHub\Color-Wheel\Color Wheel\obj\Debug\Color_Wheel.ColorWheel.resources
+C:\Users\Cale\Documents\GitHub\Color-Wheel\Color Wheel\obj\Debug\Color_Wheel.Properties.Resources.resources
+C:\Users\Cale\Documents\GitHub\Color-Wheel\Color Wheel\obj\Debug\Color Wheel.csproj.GenerateResource.Cache
+C:\Users\Cale\Documents\GitHub\Color-Wheel\Color Wheel\obj\Debug\Color Wheel.exe
+C:\Users\Cale\Documents\GitHub\Color-Wheel\Color Wheel\obj\Debug\Color Wheel.pdb
