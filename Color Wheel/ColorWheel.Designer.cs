@@ -37,7 +37,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.winningColorBox = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.resultText = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.winningColorBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -122,20 +122,20 @@
             this.winningColorBox.TabIndex = 8;
             this.winningColorBox.TabStop = false;
             // 
-            // textBox1
+            // resultText
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(13, 276);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(243, 32);
-            this.textBox1.TabIndex = 9;
+            this.resultText.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resultText.Location = new System.Drawing.Point(13, 276);
+            this.resultText.Name = "resultText";
+            this.resultText.Size = new System.Drawing.Size(243, 32);
+            this.resultText.TabIndex = 9;
             // 
             // ColorWheel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 338);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.resultText);
             this.Controls.Add(this.winningColorBox);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -164,7 +164,7 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.PictureBox winningColorBox;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox resultText;
     }
 }
 

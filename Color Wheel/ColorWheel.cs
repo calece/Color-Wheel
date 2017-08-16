@@ -12,69 +12,66 @@ namespace Color_Wheel
 {
     public partial class ColorWheel : Form
     {
-
         private List<Button> buttons = new List<Button>();
         private List<Color> colors = new List<Color>();
         private Button winningButton = new Button();
+        Random rand = new Random();
         private int maxShownColors = 2; 
 
         public ColorWheel()
         {
             InitializeComponent();
-            foreach (Button button in this.Controls.OfType<Button>())
-            {
-                buttons.Add(button);
-            }
-            colors.AddRange(new List<Color> {Color.Red, Color.Orange, Color.Yellow, Color.Green, Color.Blue, Color.Indigo, Color.Violet, Color.Pink});
-            arrangeColors(buttons, colors);
+            buttons = this.Controls.OfType<Button>().ToList();
             foreach (Button button in buttons)
             {
-                button.Click += new EventHandler(assignButton);
+                button.Click += new EventHandler(checkWin);
             }
+            colors.AddRange(new List<Color> {Color.Red, Color.Orange, Color.Yellow, Color.Green, Color.Blue, Color.Indigo, Color.Violet, Color.Pink});
+            arrangeButtonColors();
         }
 
-        private void assignButton(object sender, EventArgs e)
+        private void checkWin(object sender, EventArgs e)
         {
-            checkWin(sender as Button, buttons, colors);
+            Button clickedButton = sender as Button;
+            resultText.Text = clickedButton == winningButton ? "You Win!" : "You Lost!";
+            arrangeButtonColors();
         }
 
-        public void checkWin(Button button, List<Button> buttons, List<Color> colors)
-        {
-
-            if (button == winningButton)
-            {
-                textBox1.Text = "You Won!";
-            }
-            else
-            {
-                textBox1.Text = "You Lose!";
-            }
-            arrangeColors(buttons, colors);
+        private void arrangeButtonColors()
+        {                 
+            assignNewColors();
+            assignWinningButton();
+            blackoutButtons();            
         }
 
-        private void arrangeColors(List<Button> buttons, List<Color> colors)
+        private void assignNewColors()
         {
-            int blockedColors = 0;
-            Random rand = new Random();
             int iterator = rand.Next(buttons.Count);
-            //Establish Colors
             for (int i = 0; i < buttons.Count; i++)
             {
                 buttons[i].BackColor = colors[iterator % buttons.Count];
                 iterator++;
             }
-            iterator = rand.Next(buttons.Count);
-            winningButton = buttons[iterator];
+        }
+
+        private void assignWinningButton()
+        {
+            int winningButtonIndex = rand.Next(buttons.Count);
+            winningButton = buttons[winningButtonIndex];
             winningColorBox.BackColor = winningButton.BackColor;
-            //Ensure winning button color is black and proceed to randomly black out colors.
-            buttons[iterator].BackColor = Color.Black;
-            while (blockedColors < (buttons.Count - 1) - maxShownColors)
+            winningButton.BackColor = Color.Black;
+        }
+        
+        private void blackoutButtons()
+        {
+            int currentBlockedColors = 0;
+            while (currentBlockedColors < (buttons.Count - 1) - maxShownColors)
             {
-                iterator = rand.Next(buttons.Count);
+                int iterator = rand.Next(buttons.Count);
                 if (buttons[iterator].BackColor != Color.Black)
                 {
                     buttons[iterator].BackColor = Color.Black;
-                    blockedColors++;
+                    currentBlockedColors++;
                 }
             }
         }
